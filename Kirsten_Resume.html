@@ -4,75 +4,171 @@
 <title>Kirsten Olson</title>
 </head>
 
-<center><h1>Kirsten Olson</h1>
+<!--This code is linking HTML and CSS-->
+<link rel="stylesheet" type="text/css" href="Kirsten_Resume.css">
+
+<!--This code is linking HTML and JavaScript-->
+<script src="Kirsten_Resume.js"></script>
+
+<body background="Background.png">
+
+<!--This is the font syles-->
+<b>
+<font color="purple">
+
+<!--Title-->
+<center><h1>Kirsten Olson - Resume</h1></center>
+
+<!--First box-->
+<div class="Intro">
+
 
 <!--Here is a where my self-portrait goes-->
-<img src="name_of_pic">
+<div style="width: 20%; float: left" class="fit">
+<table>
+	<tr>	
+		<td>
+			<center><img class="fit" src="puppies.jpg"/></center>
+		</td>
+	</tr>
+</table>
+</div>
 
-<h3>Contact Me</h3>
+<!--About Me-->
+<div style="width: 80%; float: right", class="Intro1">
+<center><h2>About Me</h2>
+
+<h3>Hello World! My name is Kirsten Olson and I have created this website to 
+act as my standing resume. I am a rising 11th grader in high 
+school and I am going to attend the School for Advanced Studies at Miami 
+Dade College this upcoming year. My life's goal is to work in the field 
+of computer science and potentially work in computer animation and/or cyber security. </h3></center>
+</div>
+</div>
+
+<!--Table of Contents-->
+<div style="width: 48%; float: left" class="Intro2">
+<center><h2>Table of Contents</h2></center>
+<ul>
+<body link="purple">
+	<a href="#Education"><li><h3>Education</h3></li></a>
+	<a href="#Experience"><li><h3>Experience</h3></li></a>
+	<a href="#Skills"><li><h3>Skills</h3></li></a>
+	<a href="#Personal_Qualities"><li><h3>Personal Qualities</h3></li></a>
+	<a href="#Portfolio"><li><h3>Portfolio</h3></li></a>
+</body>
+</ul>
+</div>
+
+
+
+<!--Here is where my Contact form goes-->
+<div style="width: 48%; float: right" class="Intro2" id="Intro3">
+<center><h2>Contact Me</h2>
 
 <form>
 Type your e-mail: 
 <input type="text"><br>
 </form>
 
-<form>
+<br><form>
 Message:
 <input type="text" name="Message" size="35"> 
-</form>
-
-<h3>About Me</h3>
-
-<p>Hello World! My name is Kirsten Olson and I have created this website to 
-act as my resume. I am a rising 11th grader in high 
-school and I am going to attend the School for Advanced Studies at Miami 
-Dade College this upcoming year. My life's goal is to work in the field 
-of computer science and maybe even become a computer animator. </p></center>
-
-
-
-
-
-
-<button onclick="myFunction()">Education</button> 
-<style>
-#myDIV{
-}
-</style>
-<div id="myDIV"><h5>School for Advanced Studies | August 2017 - </h5>
-	<h5>TERRA Environmental Research Institute | August 2015 - June 2017</h5>
-	<h5>Frank C. Martin K-8 Center | August 2007 - June 2015</h5>
+</form></center>
+<br>
 </div>
 
-<script>
-function myFunction() {
-	var x = document.getElementById('myDIV');
-	if (x.style.display === 'none') {
-		x.style.display = 'block';
-	} else {
-		x.style.display = 'none';
-	}
-}
-</script>
 
+<!--Education-->
+<div style="width: 100%" class="Intro2">
+<a id="Education"><br><h2>Education</h2></a>
+	<h3>School for Advanced Studies | August 2017 - </h3>
+	<h3>TERRA Environmental Research Institute | August 2015 - June 2017</h3>
+	<h3>Frank C. Martin K-8 Center | August 2007 - June 2015</h3>
+</div>
+	
+<!--Experience-->
+<div style="width: 100%" class="Intro2">
+<a id="Experience"><br><h2>Experience</h2></a>
+<ul style="list-style-type:none">
+	<li>Girls Who Code Summer Immersion Program | FIU Campus | June 2017 - August 2017</li>
+	<ul>
+		<br><li>As part of the seven-week-long immersion program I have been taught about and am learning computer coding 
+		languages such as scratch, Python, HTML, CSS, and JavaScript.</li>
+	</ul>
+	
+	<br><li>Co-Director of Videography and Video Editing | TERRA Environmental Research Institute | August 2016 - June 2017</li>
+	<ul>
+		<br><li>As part of my school's yearbook crew it was my responsibility to attend most school 
+		sponsored events / athletic games and take video.</li>
+		<br><li>Once filming was complete, I was one of the leaders of a team of video editors who were in charge of sorting 
+		through the footage taken and creating a video that will appeal to our school audience.</li>
+		<br><li>I was in charge of working closely with my supervisor and communicating information about dates
+		of filming. I was to make sure that enough footage was obtained and that deadlines were met.</li>
+	</ul>
+	
+	<br><li>News Producer | Frank C. Martin K-8 Center | August 2014 - June 2015</li>
+	<ul>
+		<br><li>As part of my school's journalism class, it was my responsibility to help put 
+		together our school's newsletter and yearbook.</li>
+		<br><li>My repsonsibilities included making sure the writers and editors of our school 
+		newsletter (my peers) sudmitted work on time and I kept them up to date on future activities
+		and assignments.</li>
+	</ul>
+	
+	<br><li>Media Production Manager | Frank C. Martin K-8 Center | January 2013 - June 2015</li>
+	<ul>
+		<br><li>School's daily news anchor. Responsible for reading from a teleprompter and accuratelyy giving information about school events.</li>
+		<br><li>Responsible for creating daily headlines of historic events.</li>
+		<br><li>Coordinator in charge of overseeing the smooth operation of the daily announcements.</li>
+	</ul>
+	
+</ul>
+<br>
+</div>
 
+<!--Skills-->
+<div style="width: 100%" class="Intro2">
+<a id="Skills"><br><h2>Skills</h2></a>
+<ul>
+	<li>Customer service</li>
+	<br><li>Guest relations</li>
+	<br><li>Effective time-management</li>
+	<br><li>Video Editing with iMovie</li>
+	<br><li>Videography</li>
+	<br><li>Intermediate Spanish</li>
+	<br><li>Advanced use of Scratch programming</li>
+	<br><li>Intermediate use of HTML and CSS</li>
+	<br><li>Beginner use of JavaScript</li>
+	<br><li>Intermediate use of Python</li>
+	
+</ul>
+<br>
+</div>
 
+<!--Personal Qualities-->
+<div style="width: 100%" class="Intro2">
+<a id="Personal_Qualities"><br><h2>Personal Qualities</h2></a>
+<ul>
+	<li>Effective leader</li>
+	<br><li>Quick thinker</li>
+	<br><li>Hard worker</li></li>
+	<br><li>Respectful to supervisors, peers, and customers</li>
+</ul>
+<br>
+</div>
 
-
-
-
-
-<br><button type="button">Skills</button> 
+<!--Portfolio-->
+<div style="width: 100%" class="Intro2">
+<a id="Portfolio"><br><h2>Portfolio</h2></a>
 <ul>
 	<li></li>
 </ul>
+<br>
+</div>
 
-<button type="button">Personal Qualities</button> 
-<h3>Personal Qualities</h3>
-<ul>
-	<li></li>
-</ul>
-
+<!--Button to go to the Top-->
+<button onclick="topFunction()" id="topButton" title="Go to Top">Top</button>
 
 
 
@@ -87,9 +183,8 @@ function myFunction() {
 
 
 
-
-
-
-
-
+</font>
+</b>
+</body>
+<p>Source of background image: Spoonflower</p>
 </html>
